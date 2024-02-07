@@ -1,7 +1,32 @@
 <html>
   <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+  background-color: #171717;
+}
+
+form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  background: #005f8f;
+  color: white;
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.form-control {
+  color: white;
+  background: #171717;
+}
+
+.btn btn-primary {
+  background: #171717;
+}
+    </style>
   </head>
   <body class="container mt-5">
     <form onsubmit="sendContact(event)">
